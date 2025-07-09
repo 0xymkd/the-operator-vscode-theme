@@ -226,204 +226,129 @@
 		"welcomePage.tileHoverBackground": "#334155",
 		"welcomePage.tileBorder": "#06B6D4"
 	},
-	"tokenColors": [
-		// --- Syntax Highlighting based on provided screenshots (Terminal, Calculator, etc.) ---
-		{
-			"scope": [
-				"comment",
-				"punctuation.definition.comment"
-			],
-			"settings": {
-				"foreground": "#64748B", // Dim grey for comments
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope": [
-				"constant",
-				"entity.name.function",
-				"support.function",
-				"entity.name.type",
-				"support.class",
-				"variable.function",
-				"variable.other.constant"
-			],
-			"settings": {
-				"foreground": "#06B6D4" // Primary blue for functions, types, constants, and global variables
-			}
-		},
-		{
-			"scope": [
-				"keyword",
-				"storage",
-				"storage.type",
-				"variable.language.this",
-				"variable.language.super",
-				"keyword.control",
-				"keyword.operator.logical"
-			],
-			"settings": {
-				"foreground": "#05fffd" // Vibrant green for keywords like 'function', 'var', 'const', 'this', 'return', logical operators
-			}
-		},
-		{
-			"scope": [
-				"string",
-				"punctuation.definition.string",
-				"markup.inline.raw",
-				"string.quoted.double",
-				"string.quoted.single"
-			],
-			"settings": {
-				"foreground": "#EAB308" // Yellow/Orange for strings
-			}
-		},
-		{
-			"scope": [
-				"variable",
-				"support.variable",
-				"entity.name.variable",
-				"variable.other",
-				"variable.parameter"
-			],
-			"settings": {
-				"foreground": "#E2E8F0" // Default light grey for variables and parameters
-			}
-		},
-		{
-			"scope": [
-				"entity.other.attribute-name",
-				"entity.other.inherited-class",
-				"entity.name.interface"
-			],
-			"settings": {
-				"foreground": "#06B6D4" // Blue for attributes/inherited classes (e.g., class names in HTML), interfaces
-			}
-		},
-		{
-			"scope": [
-				"entity.name.tag",
-				"punctuation.definition.tag"
-			],
-			"settings": {
-				"foreground": "#DC2626" // Red for HTML/XML tags (like file explorer icon color)
-			}
-		},
-		{
-			"scope": [
-				"entity.other.attribute-name.html",
-				"entity.other.attribute-name.jsx",
-				"entity.other.attribute-name.css",
-				"support.type.property-name.css"
-			],
-			"settings": {
-				"foreground": "#05FF00" // Green for HTML/JSX attributes, CSS properties
-			}
-		},
-		{
-			"scope": [
-				"invalid",
-				"markup.error"
-			],
-			"settings": {
-				"foreground": "#DC2626", // Bright red for invalid code and errors
-				"fontStyle": "underline"
-			}
-		},
-		{
-			"scope": [
-				"number",
-				"constant.numeric",
-				"constant.language",
-				"constant.other"
-			],
-			"settings": {
-				"foreground": "#22D3EE" // Cyan for numbers, boolean constants (true/false/null)
-			}
-		},
-		{
-			"scope": [
-				"operator",
-				"keyword.operator"
-			],
-			"settings": {
-				"foreground": "#E2E8F0" // White for operators
-			}
-		},
-		{
-			"scope": [
-				"punctuation.separator",
-				"punctuation.accessor",
-				"punctuation.terminator",
-				"punctuation.delimiter"
-			],
-			"settings": {
-				"foreground": "#E2E8F0" // White for common punctuation like commas, dots, semicolons
-			}
-		},
-		{
-			"scope": [
-				"punctuation.bracket",
-				"meta.brace",
-				"meta.block"
-			],
-			"settings": {
-				"foreground": "#E2E8F0" // White for brackets/braces/parentheses
-			}
-		},
-		{
-			"scope": [
-				"support.type",
-				"entity.name.namespace"
-			],
-			"settings": {
-				"foreground": "#06B6D4" // Blue for built-in types, namespaces
-			}
-		},
-		{
-			"scope": [
-				"markup.heading",
-				"entity.name.section"
-			],
-			"settings": {
-				"foreground": "#05FF00", // Green for markdown headings
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"scope": [
-				"markup.list"
-			],
-			"settings": {
-				"foreground": "#E2E8F0" // White for markdown lists
-			}
-		},
-		{
-			"scope": [
-				"markup.quote"
-			],
-			"settings": {
-				"foreground": "#64748B", // Dim grey for blockquotes
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope": [
-				"markup.bold"
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#E2E8F0"
-			}
-		},
-		{
-			"scope": [
-				"markup.italic"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#E2E8F0"
-			}
-		}
-	]
+  "tokenColors": [
+    {
+      "scope": [
+        "comment"
+      ],
+      "settings": {
+        "foreground": "#6F8EA8",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#80B3FF"
+      }
+    },
+    {
+      "scope": [
+        "string"
+      ],
+      "settings": {
+        "foreground": "#A8FFD4"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric",
+        "constant.language"
+      ],
+      "settings": {
+        "foreground": "#FF80BF"
+      }
+    },
+    {
+      "scope": [
+        "variable",
+        "entity.name.variable"
+      ],
+      "settings": {
+        "foreground": "#E0E6F0"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#61AFEF"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#C678DD"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#E5C07B"
+      }
+    },
+    {
+      "scope": [
+        "markup.heading"
+      ],
+      "settings": {
+        "foreground": "#B0C4DE",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "markup.list"
+      ],
+      "settings": {
+        "foreground": "#A8FFD4"
+      }
+    },
+    {
+      "scope": [
+        "markup.quote"
+      ],
+      "settings": {
+        "foreground": "#6F8EA8",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "markup.raw"
+      ],
+      "settings": {
+        "foreground": "#FF80BF"
+      }
+    },
+    {
+      "scope": [
+        "invalid"
+      ],
+      "settings": {
+        "foreground": "#FF0000"
+      }
+    },
+    {
+      "scope": [
+        "link",
+        "entity.other.link"
+      ],
+      "settings": {
+        "foreground": "#80FFB3",
+        "fontStyle": "underline"
+      }
+    }
+  ]
 }

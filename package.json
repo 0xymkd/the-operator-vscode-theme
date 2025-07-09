@@ -12,9 +12,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "The Operator",
+        "label": "The Operator v1",
         "uiTheme": "vs-dark",
-        "path": "./themes/The Operator-color-theme.json"
+        "path": "./themes/the-operator-v1-color-theme.json"
+      },
+       {
+        "label": "The Operator v2",
+        "uiTheme": "vs-dark",
+        "path": "./themes/the-operator-v2-color-theme.json"
       }
     ]
   }
